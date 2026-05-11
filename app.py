@@ -16,7 +16,7 @@ IBKR_WAIT_SECS  = 12  # seconds to wait between SendRequest and GetStatement
 
 # Google Sheet → File → Share → Publish to web → CSV format → paste URL below
 # Expected columns: name | pin | share_pct | initial_capital | is_manager
-GOOGLE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8RIj327lCnv6-A_4Ofp6XmcMRWHlJCczNjVK-q1ZKXw9N16ltdo9mhDSZ8NT78eD1eoCb5zVE8EkV/pub?output=csv"
+GOOGLE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1AuspdxTTFAoAYqgU0bpGko6-Z1PUcI3Zs7kF-ixjVC0/edit?gid=1570318828#gid=1570318828"
 
 IBKR_SEND_URL = "https://gdcdyn.interactivebrokers.com/Universal/servlet/FlexStatementService.SendRequest"
 IBKR_GET_URL  = "https://gdcdyn.interactivebrokers.com/Universal/servlet/FlexStatementService.GetStatement"
