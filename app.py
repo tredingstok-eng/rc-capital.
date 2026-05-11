@@ -266,6 +266,7 @@ def show_login():
             ok = st.form_submit_button("כניסה →")
 
         if ok:
+            print(pin.strip())
             pin = pin.strip()
             if pin == ADMIN_PIN:
                 st.session_state.authenticated = True
